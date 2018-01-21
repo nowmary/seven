@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>nice page</title>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+
+    <style>
+    * {
+      box-sizing:border-box;
+    }
+    .menu {
+      float:left;
+      width:20%;
+    }
+    .menuitem {
+      padding: 8px;
+      margin-top : 7px;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    .main {
+      float : left;
+      width: 60%;
+      padding: 0 20px;
+    }
+    .right {
+      background-color: lightblue;
+      float:left;
+      width: 20%;
+      padding:10px 15px;
+      margin-top: 7px;
+    }
+
+    @media only screen and (max-width:800px) {
+      /* For tablets */
+      .main {
+        width: 80%;
+      }
+      .right{
+        width:100%;
+      }
+    }
+    @media only screen and (max-width:500px) {
+      /* For mobile phones */
+      .menu, .main, .right {
+        width: 100%;
+      }
+    }
+
+
+    </style>
+
+  </head>
+
+      <body>
+        <div style="background-color:#f1f1f1; padding:15px;">
+        <h1>Jack White</h1>
+        </div>
+
+        <div style="overflow:auto">
+          <div class="menu">
+            <div class="menuitem">The White Stripes</div>
+            <div class="menuitem">The Dead Weather</div>
+            <div class="menuitem">The Raconteurs</div>
+            <div class="menuitem">2018 Festivals</div>
+          </div>
+
+        <div class="main">
+          <h2>2018 Festivals</h2>
+          <p>Jack Announces Additional Festival Headline Performances</br>
+
+          Jack has revealed five additional European festival performances
+          in Belgium, Spain, Portugal, and Finland.</p>
+
+          July 7: Rock Werchter – Werchter, Belgium</br>
+
+          July 12 – 14: Mad Cool Festival – Madrid, Spain</br>
+          July 14: Nos Alive – Lisbon, Portugal</br>
+
+          July 13 – 15: Ilosaarirock Festival – Joensuu, Finland</br></p>
+          <img src="jwlive.jpg" style="width:100%">
+        </div>
+
+
+        <div class="right">
+          <h2>What?</h2>
+          <p>Jack White confirmed the impending release of his new album,
+              Boarding House Reach. Now, he’s revealed the album’s release date
+              — March 23rd.</p>
+          <h2>When?</h2>
+          <p>Jack has announced his first tour in almost four years.
+            The new live dates in support of his third solo album
+            Boarding House Reach kick off on April 19 in Detroit.</p>
+          <h2>Where?</h2>
+          <p>At Little Caesars Arena and continue through August 23 in Las Vegas,
+            with stops in London, Paris and Amsterdam.</p>
+          </div>
+        </div>
+
+        <div style="background-color:#f1f1f1; text-align:center; padding:10px;
+                    margin-top:7px; font-size:12px;">
+          The web page is made by Eun Joo Lee. Rewize the browser window
+          to see the content respond to the resizing.
+        </div>
+
+      </body>
+</html>
